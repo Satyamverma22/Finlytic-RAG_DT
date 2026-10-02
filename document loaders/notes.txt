@@ -1,0 +1,36 @@
+Artificial Intelligence Notes
+
+Artificial Intelligence (AI) is the field of computer science focused on creating systems that can perform tasks that normally require human intelligence.
+
+Machine Learning is a subset of AI. It allows computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task.
+
+Deep Learning is a subset of machine learning that uses neural networks with multiple layers. It is commonly used for image recognition, speech recognition, and natural language processing.
+
+Generative AI refers to AI systems that can generate new content such as text, images, audio, video, and code.
+
+Large Language Models (LLMs) are AI models trained on large amounts of text data. They can understand and generate human-like text. Examples include Gemini, GPT, and Mistral models.
+
+Prompt engineering is the process of designing effective instructions for an AI model. A good prompt can provide context, specify the desired output, and define constraints.
+
+RAG stands for Retrieval-Augmented Generation. RAG combines information retrieval with a language model. Instead of relying only on the knowledge stored in the model, the system first retrieves relevant information from external documents and then uses that information to generate an answer.
+
+A typical RAG pipeline has several steps:
+1. Load documents.
+2. Split documents into smaller chunks.
+3. Convert chunks into embeddings.
+4. Store embeddings in a vector database.
+5. Retrieve relevant chunks for a user question.
+6. Pass the retrieved information to the language model.
+7. Generate the final answer.
+
+Embeddings are numerical representations of text. Similar pieces of text generally have embeddings that are close to each other in vector space.
+
+A vector database is designed to store and search vector embeddings efficiently. It is commonly used in semantic search and RAG applications.
+
+Semantic search looks for information based on meaning rather than only matching exact keywords.
+
+LangChain is a framework that provides tools for building applications around language models. It can be used to connect LLMs with prompts, documents, retrievers, tools, and memory.
+
+Gemini is Google's family of generative AI models. Gemini models can be accessed through APIs and integrated into applications using libraries such as LangChain.
+
+The main goal of a RAG system is to provide answers using relevant external information while reducing the need for the language model to rely entirely on its internal knowledge.
